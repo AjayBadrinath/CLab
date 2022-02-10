@@ -16,12 +16,13 @@ for (int i=0;i<a;i++){
 }
 int b=0;
 for (int i=s;i<=l;i++){
-	for (int j=0;j<12;j++){
+	for (int j=0;j<a;j++){
 		if(arr[j]==i){
 			b++;
 }
 
 }
+
 printf("%d -%d times\n",i,b);
 b=0;
 
